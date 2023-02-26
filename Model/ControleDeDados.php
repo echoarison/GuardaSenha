@@ -6,10 +6,10 @@
     class ControleDeDados
     {
         //atributos
-        private Conta $contaData;
+        private string $contaData;
 
         //construtor
-        function _construct(Conta $_contaData)
+        function _construct(string $_contaData)
         {
             $this->contaData = $_contaData;
         }

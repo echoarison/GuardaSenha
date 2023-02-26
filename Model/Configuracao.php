@@ -5,18 +5,19 @@
     class Configuracao
     {
         //atributos
-        private MasterPass $passWord;
-        public bool $respCript;
+        private string $passWord;    //MasterPass
+        private bool $respCript;
 
         //construtor
-        function _construct(MasterPass $_password, bool $_respCript)
+        function __construct(string $_password, bool $_respCript)
         {
             $this->passWord = $_password;
             $this->respCript = $_respCript;
         }
 
         //get e set
-        private function set_passWord($_passWord)
+
+        function set_passWord(string $_passWord)
         {
             $this->passWord = $_passWord;
         }
@@ -26,7 +27,7 @@
             return $this->passWord;
         }
 
-        function set_respCript($_respCript)
+        function set_respCript(bool $_respCript)
         {
             $this->passWord = $_passWord;
         }

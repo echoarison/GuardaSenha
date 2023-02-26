@@ -2,16 +2,16 @@
 
     class MasterPass{
         //atributo
-        public string $passCript;
+        private string $passCript;
 
         //construtor
-        function _constructor(string $_passCript)
+        function _construct(string $_passCript)
         {
             $this->passCript = $_passCript;
         }
 
         //get and set
-        private function set_passCript($_passCript)
+        function set_passCript($_passCript)
         {
             $this->passCript = $_passCript;
         }
