@@ -6,8 +6,13 @@
     //chamando o header
     require_once "./View/Header.php";
 
-    //chamando o dados
-    echo"<h1 class='text-light'><marquee>Hello World</marquee></h1>";
+    //chamando o dados/Controller
+    /*echo"<h1 class='text-light'><marquee>Hello World</marquee></h1>";*/
+    include_once "./Controller/HomeController.php";
+
+    $view = new HomeController();
+
+    include "./" . $view->IndexHome();
 
     //chamando o footer
     require_once "./View/Footer.php";

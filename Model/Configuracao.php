@@ -29,7 +29,7 @@
 
         function set_respCript(bool $_respCript)
         {
-            $this->passWord = $_passWord;
+            $this->respCript = $_respCript;
         }
 
         function get_respCript()
