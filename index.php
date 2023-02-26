@@ -7,7 +7,7 @@
     require_once "./View/Header.php";
 
     //chamando o dados
-    echo"<h1><marquee>Hello World</marquee></h1>";
+    echo"<h1 class='text-light'><marquee>Hello World</marquee></h1>";
 
     //chamando o footer
     require_once "./View/Footer.php";

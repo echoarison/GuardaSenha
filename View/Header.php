@@ -10,7 +10,7 @@
         <script type="text/javascript" src="./wwwRoot/Lib/Bootstrap/Js/bootstrap.min.js"></script>    
         <script type="text/javascript" src="./wwwRoot/Lib/Bootstrap/Js/bootstrap.js"></script>
     </head>
-<body>
+<body class="backgroundSec">
     <!--cabeçario-->
     <header class="container-fluid backgroundPri">
         <nav class="navbar navbar-expand-lg">
