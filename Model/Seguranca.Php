@@ -2,7 +2,7 @@
 
     //chamando o arquivo
     require_once "Conta.php";
-    require_once "Configuracao.php";
+    require_once "Config.php";
 
     class Seguranca
     {

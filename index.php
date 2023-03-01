@@ -8,11 +8,11 @@
 
     //chamando o dados/Controller
     /*echo"<h1 class='text-light'><marquee>Hello World</marquee></h1>";*/
-    include_once "./Controller/HomeController.php";
+    include_once "./Controller/ConfigController.php";
 
-    $view = new HomeController();
+    $view = new configController();
 
-    include "./" . $view->IndexHome();
+    include "./" . $view->IndexConfig();
 
     //chamando o footer
     require_once "./View/Footer.php";
