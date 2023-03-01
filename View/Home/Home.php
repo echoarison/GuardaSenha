@@ -4,69 +4,92 @@
         <div class="container-fluid">
             <form class="d-flex mx-auto" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <button class="btn butonPri" type="submit">Search</button>
             </form>
         </div>
     </nav>
 </section>
 
 <section class="container-fluid my-1">
-    <table class="table text-bg-light">
+    <table class="table text-bg-light text-center">
         <thead>
             <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col" class="tdTitlePri">UserConta</th>
+                <th scope="col" class="tdTitleSec">EmailConta</th>
+                <th scope="col" class="tdTitlePri">SenhaConta</th>
+                <th scope="col" class="tdTitleSec">OrigemConta</th>
+                <th scope="col" class="tdTitlePri">Dethles</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-            <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+            <td scope="row">UsernameCat023</td>
+                <td>teste@teste.com</td>
+                <td>1234+admin</td>
+                <td>Netflix</td>
+                <td>
+                    <button class="btn butonPri" type="button">Detalhes</button>
+                </td>
             </tr>
             <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
+                <td scope="row">UsernameCat023</td>
+                <td>teste@teste.com</td>
+                <td>1234+admin</td>
+                <td>Netflix</td>
+                <td>
+                    <button class="btn butonPri" type="button">Detalhes</button>
+                </td>
             </tr>
             <tr>
-                <th scope="row">3</th>
-                <td>Larry the Bird</td>
-                <td>Thornton</td>
-                <td>@twitter</td>
+                <td scope="row">UsernameCat023</td>
+                <td>teste@teste.com</td>
+                <td>1234+admin</td>
+                <td>Netflix</td>
+                <td>
+                    <button class="btn butonPri" type="button">Detalhes</button>
+                </td>
             </tr>
 
             <tr>
-                <th scope="row">4</th>
-                <td>Larry the Bird</td>
-                <td>Thornton</td>
-                <td>@twitter</td>
+                <td scope="row">UsernameCat023</td>
+                <td>teste@teste.com</td>
+                <td>1234+admin</td>
+                <td>Netflix</td>
+                <td>
+                    <button class="btn butonPri" type="button">Detalhes</button>
+                </td>
             </tr>
 
             <tr>
-                <th scope="row">5</th>
-                <td>Larry the Bird</td>
-                <td>Thornton</td>
-                <td>@twitter</td>
+                <td scope="row">UsernameCat023</td>
+                <td>teste@teste.com</td>
+                <td>1234+admin</td>
+                <td>Netflix</td>
+                <td>
+                    <button class="btn butonPri" type="button">Detalhes</button>
+                </td>
             </tr>
 
             <tr>
-                <th scope="row">6</th>
-                <td>Larry the Bird</td>
-                <td>Thornton</td>
-                <td>@twitter</td>
+                <td scope="row">UsernameCat023</td>
+                <td>teste@teste.com</td>
+                <td>1234+admin</td>
+                <td>Netflix</td>
+                <td>
+                    <button class="btn butonPri" type="button">Detalhes</button>
+                </td>
             </tr>
 
             <tr>
-                <th scope="row">7</th>
-                <td>Larry the Bird</td>
-                <td>Thornton</td>
-                <td>@twitter</td>
+                <td scope="row">UsernameCat023</td>
+                <td>teste@teste.com</td>
+                <td>1234+admin</td>
+                <td>Netflix</td>
+                <td>
+                    <button class="btn butonPri" type="button">Detalhes</button>
+                </td>
             </tr>
+
         </tbody>
     </table>
 </section>

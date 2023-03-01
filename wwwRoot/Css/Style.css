@@ -2,10 +2,31 @@
     border: 1px solid #000;
 }
 
-/*Color and style*/
+/*Style backgroundColor*/
 .backgroundPri{
     background-color: #83C689;
 }
 .backgroundSec{
     background-color: #6A7698;
+}
+
+/*Button*/
+.butonPri{
+    background-color: #0049B4 !important;
+    color: #fff !important;
+}
+.butonPri:hover{
+    background-color: #E4F0FF !important;
+    color: #0049B4 !important;
+    border: 1px solid #0049B4 !important;
+}
+
+/*td title tables*/
+.tdTitlePri{
+    color: #e4f0ff;
+    background-color: #83C689 !important;
+}
+.tdTitleSec{
+    color: #83c689;
+    background-color: #e4f0ff;
 }
