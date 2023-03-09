@@ -7,7 +7,6 @@
     require_once "./View/Header.php";
 
     //chamando o dados/Controller
-    /*echo"<h1 class='text-light'><marquee>Hello World</marquee></h1>";*/
     include_once "./Controller/ConfigController.php";
 
     $view = new configController();
