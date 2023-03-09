@@ -1,6 +1,6 @@
 <section class="conteiner-fluid">
 
-    <div class="card my-3">
+    <div class="card my-3 mx-auto" style="width: 90%;">
         <h5 class="card-header">Você quer ativa a senha ?</h5>
         <div class="card-body">
             <div class="form-check form-check-inline">
@@ -23,7 +23,7 @@
         </div>
     </div>
 
-    <div class="card my-3">
+    <div class="card my-3 mx-auto" style="width: 90%;">
         <h5 class="card-header">Alterar Senha:</h5>
         <div class="card-body">
             <div class="mb-3">
@@ -33,7 +33,7 @@
         </div>
     </div>
     
-    <div class="card my-3">
+    <div class="card my-3 mx-auto" style="width: 90%;">
         <h5 class="card-header">Nivel de Criptografia</h5>
         <div class="card-body">
             <div class="form-check form-check-inline">
