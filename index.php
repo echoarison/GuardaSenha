@@ -7,11 +7,11 @@
     require_once "./View/Header.php";
 
     //chamando o dados/Controller
-    include_once "./Controller/ConfigController.php";
+    include_once "./Controller/ControleDeDadosController.php";
 
-    $view = new configController();
+    $view = new ControleDeDadosController();
 
-    include "./" . $view->IndexConfig();
+    include "./" . $view->IndexControle();
 
     //chamando o footer
     require_once "./View/Footer.php";
